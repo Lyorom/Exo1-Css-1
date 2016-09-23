@@ -1,5 +1,6 @@
-# exo1-css
+# Exo1-Css-Correction
 
-    - Coder la structure html et le Css
-      en s'inspirant de la maquette
-      fournit dans le dossier "img"
+    Ceci est une suggestion de code il est possible d'obtenir le même résultat en ayant un code différent!
+    Nous verrons les possibilités de changement au fur et à mesure de votre apprentissage!
+    Ici, le travail demandé était de réaliser une structure html simple et une mise en page identique à la maquette,
+    sans lien, ni hover...
