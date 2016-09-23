@@ -1,0 +1,120 @@
+/****************************
+     Exo1-Correction CSS
+ ****************************/
+
+/********************************* Reset CSS *************************/
+/* on utilise celui-là pour l'instant, mais on verra d'autre techniques plus pertinentes */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/********************************* GENERAL *************************/
+body, html{
+    height:100%;
+}
+
+body {
+    color: #fff;
+    font-family: Dosis, Arial, Helvetica, sans-serif; /* Police "Dosis" plus les polices alternatives */
+}
+
+main {
+    position: relative;
+    min-height:100%;
+}
+
+/********************************** HEADER ***************************/
+header {
+    height: 300px;
+    background-color: #1B6E76;
+    border-top: 50px solid #232323;
+}
+
+header img {
+    width: 250px;
+    padding: 30px;
+    float: left;
+}
+
+.titre {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 50px 0;
+}
+
+h3 {
+    font-size: 30px;
+    opacity: 0.7;
+}
+
+/******************************** NAVIGATION *************************/
+nav {
+    float: right;
+}
+
+nav li {
+    display: inline;
+    margin: 0 5px;
+    font-size: 20px;
+}
+
+nav ul {
+    padding: 10px;
+    margin-right: 100px;
+}
+
+/********************************* SECTION *************************/
+.vues {
+    width: 40%;
+    margin: 50px auto;
+}
+
+.vues img {
+    width: 49.6%;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.5);
+}
+
+/******************************** FOOTER *************************/
+
+footer {
+    position: absolute; /* pour fixer le footer en pied de page */
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    background-color: #232323;
+}
+
+form {
+    width: 40%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+input, button {
+    height: 40px;
+    padding: 5px 10px;
+    border: transparent; /* on annule le style par défaut */
+    border-radius: 3px;
+}
+
+input {
+    width: 90%;
+}
+
+button {
+    float: right;
+    width: 9%;
+    margin-right: 0;
+    color: #fff;
+    background-color: #1B6E76;
+}
